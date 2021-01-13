@@ -23,10 +23,10 @@ const SavedBooks = () => {
     }
 
     try {
-      const { data } = await removeBook({
+      await removeBook({
         variables: { bookId: bookId }
       });
-      console.log(data);
+      // console.log(data);
 
       if (error) {
         throw new Error('something went wrong!');

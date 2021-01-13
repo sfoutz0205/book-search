@@ -40,6 +40,7 @@ const AppNavbar = () => {
       </Navbar>
       {/* set modal data up */}
       <Modal
+        animation={false}
         size='lg'
         show={showModal}
         onHide={() => setShowModal(false)}
