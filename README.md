@@ -1,6 +1,6 @@
 # Book Search #
 
-The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API integrated to use a GraphQL API & Apollo Server. 
+The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API integrated to use a GraphQL API & Apollo Server. The app allows the user to search for books using the Google book search API, with the option for users to create an account and save books to their profile. 
 
 ## Creation ## 
 
